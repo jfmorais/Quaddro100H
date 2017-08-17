@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quaddro 100h</string>
+    <string name="splash_intro">Android 100 H</string>
+    <string name="lab02_title">Megasena</string>
+    <string name="lab02_sorteios">Tips</string>
+    <string name="lab02_um">1</string>
+    <string name="lab01_title">Labs</string>
+    <string name="lab03_title">TicTacToe</string>
+    <string name="lab04_title">Address</string>
+    <string name="lab02_sortear">Sortear</string>
+    <string name="lab05_title">Animações</string>
+    <string name="lab05_executar">Executar</string>
+    <string name="lab04_endereco_consultar">Consultando...</string>
+    <string name="lab04_endereco_salvo">Salvo!</string>
+    <string name="lab04_endereco_cancelado">Cancelado!</string>
+    <string name="lab04_endereco_alterar">Alterar</string>
+    <string name="lab04_endereco_apagar">Apagar</string>
+    <string name="lab08_title">Hotel (Fragment)</string>
+    <string name="lab11_title">Sensores</string>
+    <string name="lab13_title">Mapas (Google)</string>
+    <string name="lab14_title">GPS</string>
+</resources>

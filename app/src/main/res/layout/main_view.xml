@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="@string/lab01_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_megasena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lab02_title"/>
+
+            <Button
+                android:id="@+id/bt_tictactoe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lab03_title"/>
+
+            <Button
+                android:id="@+id/bt_endereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lab04_title"/>
+
+            <Button
+                android:id="@+id/bt_animacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lab05_title"/>
+
+            <Button
+                android:id="@+id/bt_animacao_quadro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lab06_title"/>
+
+            <Button
+                android:id="@+id/bt_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lab08_title"/>
+
+            <Button
+                android:id="@+id/bt_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lab09_title"/>
+
+            <Button
+                android:id="@+id/bt_sensor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lab11_title"/>
+
+            <Button
+                android:id="@+id/bt_mapas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lab13_title"/>
+
+            <Button
+                android:id="@+id/bt_gps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lab14_title"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

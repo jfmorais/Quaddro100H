@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/lab05_title"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <Spinner
+        android:id="@+id/sp_animacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:entries="@array/animacoes" />
+
+    <Spinner
+        android:id="@+id/sp_interpolador"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/interpoladores"  />
+
+    <RelativeLayout
+        android:id="@+id/wilson_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/wilson"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/wilson"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_executar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab05_executar"/>
+</LinearLayout>

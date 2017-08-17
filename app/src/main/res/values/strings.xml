@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quaddro 100h</string>
+    <string name="cep_url" translatable="false">http://api.postmon.com.br/v1/</string>
+    <string name="splash_intro">Android 100 Horas</string>
+    <string name="lab02_title">Megasena</string>
+    <string name="lab02_sorteios">Sorteios</string>
+    <string name="lab02_um">1</string>
+    <string name="lab01_title">Laboratórios</string>
+    <string name="lab03_title">TicTacToe</string>
+    <string name="lab04_title">Endereço</string>
+    <string name="lab02_sortear">Sortear</string>
+    <string name="lab05_title">Animações</string>
+    <string name="lab05_executar">Executar</string>
+    <string name="lab06_title">Animação (Quadro a Quadro)</string>
+    <string name="lab04_endereco_consultar">Consultando…</string>
+    <string name="lab04_endereco_salvo">Salvo!</string>
+    <string name="lab04_endereco_cancelado">Cancelado!</string>
+    <string name="lab04_endereco_salvar">Salvar</string>
+    <string name="lab04_endereco_alterar">Alterar</string>
+    <string name="lab04_endereco_apagar">Apagar</string>
+    <string name="lab08_title">Hotel (Fragment)</string>
+    <string name="lab09_title">Notificações Tipo Uber</string>
+    <string name="bt_notifica_simples">Notificação Simples</string>
+    <string name="bt_notifica_completa">Notificação Completa</string>
+    <string name="bt_notifica_uber">Notificação Tipo Uber</string>
+    <string name="lab11_title">Sensores</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="lab13_title">Mapas (Google)</string>
+    <string name="lab14_title">GPS</string>
+</resources>

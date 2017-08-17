@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.quaddro.quaddro100h">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--  -->
+        <activity
+            android:name=".lab01.app.controller.SplashActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".lab01.app.controller.MainActivity" />
+        <activity android:name=".lab02.app.controller.MegasenaActivity" />
+        <activity android:name=".lab03.app.controller.TicTacToeActivity" />
+        <activity
+            android:name=".lab04.app.controller.EnderecoListarActivity"
+            android:theme="@style/Widget.AppCompat.Light.ActionBar" />
+        <activity android:name=".lab04.app.controller.EnderecoInserirActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.endereco.INSERIR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".lab04.app.controller.EnderecoAlterarActivity" />
+        <activity android:name=".lab05.app.contoller.AnimacaoActivity" />
+        <activity
+            android:name=".lab06.app.controller.AnimacaoQuadroActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".lab08.app.controller.HotelListActivity" />
+        <activity android:name=".lab08.app.controller.HotelActivity" />
+        <activity android:name=".lab09.app.controller.NotificationActivity" />
+        <activity android:name=".lab11.app.controller.SensorActivity" />
+        <activity android:name=".lab14.app.controller.GPSActivity" />
+
+        <service android:name=".lab04.app.service.ConsultarCEPService" />
+        <service android:name=".lab10.app.service.FavoritosService">
+            <intent-filter>
+                <action android:name="antes" />
+                <action android:name="depois" />
+                <action android:name="site" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".lab15.app.receiver.SMSReceiver"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".lab10.app.receiver.FavoritosWidget"
+            android:label="Meus favoritos">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/favoritos_widget" />
+        </receiver>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".lab13.app.controller.MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+    </application>
+
+</manifest>

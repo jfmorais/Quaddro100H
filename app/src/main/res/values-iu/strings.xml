@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quaddro 100h</string>
+    <string name="lab01_title">3</string>
+    <string name="lab02_sortear">5</string>
+    <string name="lab02_sorteios">6</string>
+    <string name="lab02_title">8</string>
+    <string name="lab02_um">6</string>
+    <string name="lab03_title">4</string>
+    <string name="lab04_title">5</string>
+    <string name="splash_intro">6</string>
+    <string name="lab05_title">Animações</string>
+    <string name="lab05_executar">Executar</string>
+    <string name="lab04_endereco_consultar">Consultando...</string>
+    <string name="lab04_endereco_salvo">Salvo!</string>
+    <string name="lab04_endereco_cancelado">Cancelado!</string>
+    <string name="lab04_endereco_alterar">Alterar</string>
+    <string name="lab04_endereco_apagar">Apagar</string>
+    <string name="lab08_title">Hotel (Fragment)</string>
+    <string name="lab11_title">Sensores</string>
+    <string name="lab13_title">Mapas (Google)</string>
+    <string name="lab14_title">GPS</string>
+</resources>
